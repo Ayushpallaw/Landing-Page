@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="Assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Islands Landing Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Travel</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Explore</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Destinations</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link">Hotels</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class='main'>
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                <section class="islands swiper-slide">
+                    <img src="Assets/img/parel.jpg" alt="" class="islands__bg">
+                    <div class="islands__container bd-container">
+                        <div class="islands__data">
+                            <h2 class="islands__subtitle">Islands</h2>
+                            <h1 class="islands__title">PAREL</h1>
+                            <p class="islands__description">Parel was one of the seven islands of Bombay, during 13th
+                                century was part of the Raja Bhimdev Kingdom and later was ceded by the Portugese to the
+                                British in the year 1661. </p>
+                            <a href="https://en.wikipedia.org/wiki/Parel" class="islands_button">Explore <i
+                                    class='bx bx-right-arrow-alt islands_button-icon'></i></a>
+                        </div>
+                        <div class="islands__video">
+                            <div class="islands__video-content">
+                                <i class='bx bx-play-circle islands__video-icon'></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="islands swiper-slide">
+                    <img src="Assets/img/3number.jpg" alt="" class="islands__bg">
+
+                    <div class="islands__container bd-container">
+                        <div class="islands__data">
+                            <h2 class="islands__subtitle">Islands</h2>
+                            <h1 class="islands__title">Bali</h1>
+                            <p class="islands__description">Bali is the most popular Indonesian island known for its
+                                natural settings, scenic beaches, traditional culture, rich history, creativity, art and
+                                crafts, and the genuine warmth of the local people.</p>
+                            <a href="https://en.wikipedia.org/wiki/Bali" class="islands_button">Explore <i
+                                    class='bx bx-right-arrow-alt islands_button-icon'></i></a>
+                        </div>
+
+                        <div class="islands__video">
+                            <div class="islands__video-content">
+                                <i class='bx bx-play-circle islands__video-icon'></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="islands swiper-slide">
+                    <img src="Assets/img/1.jpg" alt="" class="islands__bg">
+
+                    <div class="islands__container bd-container">
+                        <div class="islands__data">
+                            <h2 class="islands__subtitle">Islands</h2>
+                            <h1 class="islands__title">Palawan</h1>
+                            <p class="islands__description">Palawan is the largest island of the province of Palawan in
+                                the Philippines and fifth-largest by area and tenth-most populous island of the country,
+                                with a total population of 994,101 as of 2020 census.</p>
+                            <a href="https://en.wikipedia.org/wiki/Palawan_(island)" class="islands_button">Explore <i
+                                    class='bx bx-right-arrow-alt islands_button-icon'></i></a>
+                        </div>
+
+                        <div class="islands__video">
+                            <div class="islands__video-content">
+                                <i class='bx bx-play-circle islands__video-icon'></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="islands__popup" id="popup">
+                    <div>
+                        <div class="islands__popup-close" id="popup-close">
+                            <i class='bx bx-x'></i>
+                        </div>
+                        <iframe class="islands__popup-video" src="https://www.youtube.com/embed/b7Cl7S0pLRw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls gallery-thumbs">
+            <div class="controls__container swiper-wrapper">
+                <img src="Assets/img/1.jpg" alt="" class="controls__img swiper-slide">
+                <img src="Assets/img/3number.jpg" alt="" class="controls__img swiper-slide">
+                <img src="Assets/img/parel.jpg" alt="" class="controls__img swiper-slide">
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
